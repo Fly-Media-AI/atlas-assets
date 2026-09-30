@@ -123,10 +123,12 @@ PAGES = [
     ("onboarding", "Start here", "Onboarding", "Your first week"),
     ("templates", "Company", "Templates", "How each page and row is written"),
     ("area", "Area", "<Area>", "Template cover for any area"),
+    ("rd", "Area", "R&D", "Applied Research and AI Creative"),
+    ("setup", "Start here", "Set up your area", "Your teamspace in 45 minutes"),
 ]
 ICONS = [("home", "F", LIME), ("leadership", "L", None), ("engineering", "E", None), ("updates", "U", None),
          ("decisions", "D", None), ("requests", "R", None), ("meetings", "M", None), ("agenda", "A", None),
-         ("tracker", "T", None), ("onboarding", "S", LIME), ("templates", "Tp", None)]
+         ("tracker", "T", None), ("onboarding", "S", LIME), ("templates", "Tp", None), ("rd", "R", None), ("setup", "S", None)]
 
 if __name__ == "__main__":
     for slug, eye, title, sub in PAGES:
